@@ -51,7 +51,7 @@ export default function Sidenav({ isOpen, onClose  }: SidenavProps) {
                                 Sejarah BBIHPMM
                             </li>
                             <li className="p-4 font-semibold cursor-pointer text-sm text-gray-900 hover:text-blue-600">
-                                Visi & Misi
+                                Visi & Misi untuk masa depan
                             </li>
                             <li className="p-4 font-semibold cursor-pointer text-sm text-gray-900 hover:text-blue-600">
                                 Tugas Pokok & Fungsi
