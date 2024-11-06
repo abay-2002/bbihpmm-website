@@ -52,7 +52,7 @@ export default function Navbar() {
                                     Tugas Pokok & Fungsi
                                 </li>
                                 <li className="p-4 font-semibold cursor-pointer text-sm text-gray-900 hover:text-blue-600">
-                                    Motto
+                                    Motto BBIHPMM
                                 </li>
                                 <li className="p-4 font-semibold cursor-pointer text-sm text-gray-900 hover:text-blue-600">
                                     Struktur Organisasi
