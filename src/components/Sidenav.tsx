@@ -63,7 +63,7 @@ export default function Sidenav({ isOpen, onClose  }: SidenavProps) {
                                 Struktur Organisasi
                             </li>
                             <li className="p-4 font-semibold cursor-pointer text-sm text-gray-900 hover:text-blue-600">
-                                Profil Pejabat
+                                Profil Pejabat Kita
                             </li>
                             <li className="p-4 font-semibold cursor-pointer text-sm text-gray-900 hover:text-blue-600">
                                 Kebijakan Mutu
