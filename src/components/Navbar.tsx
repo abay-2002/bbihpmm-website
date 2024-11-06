@@ -21,22 +21,22 @@ export default function Navbar() {
         <>
             <nav className="sticky top-0 bg-white z-50">
                 <div className="flex flex-row gap-4 items-center px-4 py-4 mx-auto max-w-6xl">
-                    <button 
+                    <button
                         onClick={toggleSidenav}
                         className="h-fit px-3 py-2 rounded-md md:hidden"
                     >
                         <FontAwesomeIcon icon={faBars} />
                     </button>
                     <div className="flex flex-row gap-4 items-center">
-                        <img src={logoKemenperinRI} className="h-12 w-auto hidden md:block" alt="Kemenperin RI logo"/>
-                        <img src={logoBBIHP} className="h-14 w-auto" alt="BBIHP logo"/>
+                        <img src={logoKemenperinRI} className="h-12 w-auto hidden md:block" alt="Kemenperin RI logo" />
+                        <img src={logoBBIHP} className="h-14 w-auto" alt="BBIHP logo" />
                     </div>
                 </div>
                 <div className="border-y-[1px] shadow-sm hidden md:block md:px-28">
                     <ul className="flex flex-wrap justify-between items-center relative max-w-6xl m-auto">
                         <li className="group relative font-semibold cursor-pointer text-sm text-gray-900 p-4">
                             Profil
-                            <ul 
+                            <ul
                                 className="group-hover:opacity-100 group-hover:translate-y-0 translate-y-full opacity-0 transition ease-in-out duration-200 absolute top-[52px] w-64 flex-col border-t-0 border-[1px] rounded-b-md bg-white shadow-md"
                             >
                                 <li className="p-4 font-semibold cursor-pointer text-sm text-gray-900 hover:text-blue-600">
@@ -52,7 +52,7 @@ export default function Navbar() {
                                     Tugas Pokok & Fungsi
                                 </li>
                                 <li className="p-4 font-semibold cursor-pointer text-sm text-gray-900 hover:text-blue-600">
-                                    Motto
+                                    Motto BBIHPMM
                                 </li>
                                 <li className="p-4 font-semibold cursor-pointer text-sm text-gray-900 hover:text-blue-600">
                                     Struktur Organisasi
@@ -67,7 +67,7 @@ export default function Navbar() {
                         </li>
                         <li className="group relative font-semibold cursor-pointer text-sm text-gray-900 p-4">
                             Informasi Publik
-                            <ul 
+                            <ul
                                 className="group-hover:opacity-100 group-hover:translate-y-0 translate-y-full opacity-0 transition ease-in-out duration-200 absolute top-[52px] w-64 flex-col border-t-0 border-[1px] rounded-b-md bg-white shadow-md"
                             >
                                 <li className="p-4 font-semibold cursor-pointer text-sm text-gray-900 hover:text-blue-600">
@@ -83,7 +83,7 @@ export default function Navbar() {
                         </li>
                         <li className="group relative font-semibold cursor-pointer text-sm text-gray-900 p-4">
                             Layanan Publik
-                            <ul 
+                            <ul
                                 className="group-hover:opacity-100 group-hover:translate-y-0 translate-y-full opacity-0 transition ease-in-out duration-200 absolute top-[52px] w-64 flex-col border-t-0 border-[1px] rounded-b-md bg-white shadow-md"
                             >
                                 <li className="p-4 font-semibold cursor-pointer text-sm text-gray-900 hover:text-blue-600">
@@ -108,7 +108,7 @@ export default function Navbar() {
                         </li>
                         <li className="group relative font-semibold cursor-pointer text-sm text-gray-900 p-4">
                             Layanan Jasa
-                            <ul 
+                            <ul
                                 className="group-hover:opacity-100 group-hover:translate-y-0 translate-y-full opacity-0 transition ease-in-out duration-200 absolute top-[52px] w-64 flex-col border-t-0 border-[1px] rounded-b-md bg-white shadow-md"
                             >
                                 <li className="p-4 font-semibold cursor-pointer text-sm text-gray-900 hover:text-blue-600">
@@ -141,15 +141,15 @@ export default function Navbar() {
                                 <li className="p-4 font-semibold cursor-pointer text-sm text-gray-900 hover:text-blue-600">
                                     Inspeksi Teknis
                                 </li>
-                                <li 
-                                    data-dropdown-toggle="layananHalalDropdown" 
+                                <li
+                                    data-dropdown-toggle="layananHalalDropdown"
                                     data-dropdown-placement="right-start"
                                     data-dropdown-trigger="hover"
                                     className="relative p-4 font-semibold cursor-pointer text-sm text-gray-900 hover:text-blue-600"
                                 >
                                     Layanan Halal
-                                    <ul 
-                                        id="layananHalalDropdown" 
+                                    <ul
+                                        id="layananHalalDropdown"
                                         className="hidden w-64 absolute flex-col border-[1px] rounded-md border-gray-200 bg-white"
                                     >
                                         <li className="p-4 text-sm font-semibold cursor-pointer hover:text-blue-600">
