@@ -6,7 +6,7 @@ export default function SejarahPage(){
             <div className="flex flex-col  w-full items-center">
 
                 <div className="bg-slate-200 w-full p-20">
-                    <h1 className="font-bold text-5xl text-center ">Sejarah BBIHPMM67676767676776</h1>
+                    <h1 className="font-bold text-5xl text-center ">Sejarah BBIHPMM67676767676776fdfdffd</h1>
                     <p className="text-xl mt-2 text-center">Perjalanan Transformasi BBSPJIHPMM sejauh dekade ini</p>
                 </div>
 
