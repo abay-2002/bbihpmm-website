@@ -70,7 +70,7 @@ export default function FormRegister() {
                   </div>
                   <img src={Logo} alt="" className='w-[150px] mb-4' />
                   <h1 className='md:text-xl font-bold'>Registrasi Akun Web BBIHPMM</h1>
-                  <h1 className='text-gray-500'>Hi, Selamat Datang <span className='text-blue-600 tracking-wider font-bold'>#InsanOke👍</span></h1>
+                  <h1 className='text-gray-500'>Hi, Selamat Datang <span className='text-blue-600 tracking-wider font-bold'>#InsanOke</span></h1>
                </div>
                <form action="" className="w-full">
                   <div className="flex-1 flex flex-col h-full items-center space-y-4">
