@@ -6,11 +6,35 @@ export default function SejarahPage(){
             <div className="flex flex-col  w-full items-center">
 
                 <div className="bg-slate-200 w-full p-20">
-                    <h1 className="font-bold text-5xl text-center ">Sejarah BBIHPMM</h1>
+                    <h1 className="font-bold text-5xl text-center ">Sejarah BBIHPMM67676767676776</h1>
                     <p className="text-xl mt-2 text-center">Perjalanan Transformasi BBSPJIHPMM sejauh dekade ini</p>
                 </div>
 
                 <div className="flex flex-wrap w-full h-1/2 p-20 gap-10 sm:align-middle">
+
+                    <div className="relative items-center md:flex md:flex-row md:ps-5 sm:border-s-2  sm:ps-5 md:border-gray-300">
+                        <div className=" md:ps-5 sm:ps-8">
+                            <h1> Tahun
+                                <p className="font-bold text-4xl">1947</p>
+                            </h1>
+                        </div>
+
+                        <div className="ps-4 md:ps-10 mt-4">
+                            <p className="bg-slate-200 p-5 sm:p-10 md:p-10 rounded-lg justify-end leading-8"><b>Balai Besar Standardisasi dan Pelayanan Jasa Industri Hasil Perkebunan, Mineral Logam, dan Maritim (BBSPJIHPMM)</b> didirikan pada tahun 1947 dengan nama “Laboratorium Voor Scheikunding Onderzoek” sebagai cabang dari Laboratorium Pusat Bogor</p>
+                        </div>
+                    </div>
+
+                    <div className="relative items-center md:flex md:flex-row md:ps-5 sm:border-s-2  sm:ps-5 md:border-gray-300">
+                        <div className=" md:ps-5 sm:ps-8">
+                            <h1> Tahun
+                                <p className="font-bold text-4xl">1947</p>
+                            </h1>
+                        </div>
+
+                        <div className="ps-4 md:ps-10 mt-4">
+                            <p className="bg-slate-200 p-5 sm:p-10 md:p-10 rounded-lg justify-end leading-8"><b>Balai Besar Standardisasi dan Pelayanan Jasa Industri Hasil Perkebunan, Mineral Logam, dan Maritim (BBSPJIHPMM)</b> didirikan pada tahun 1947 dengan nama “Laboratorium Voor Scheikunding Onderzoek” sebagai cabang dari Laboratorium Pusat Bogor</p>
+                        </div>
+                    </div>
 
                     <div className="relative items-center md:flex md:flex-row md:ps-5 sm:border-s-2  sm:ps-5 md:border-gray-300">
                         <div className=" md:ps-5 sm:ps-8">
