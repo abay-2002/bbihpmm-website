@@ -6,12 +6,15 @@ import wbbm from "../assets/icon/wbbm.png"
 
 function Keunggulan() {
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 bg-slate-200w-full h-auto p-10 md:p-5'>
-            <div className='ps-24 pt-20'>
+        <div className='grid grid-cols-1 md:grid-cols-2 items-center  bg-slate-200w-full h-auto p-10 md:p-5'>
+            
+            <div className='flex flex-col sm:ps-10 '>
 
-                <h1 className=' bg-gray-100 p-2  rounded-md font-medium mb-5'>Keunggulan Kami</h1>
-                <h1 className=' font-bold text-4xl mb-5 '>Solusi Untuk Industri</h1>
-                <p className=''> <b>Balai Besar Standardisasi dan Pelayanan Jasa Industri Hasil Perkebunan, Mineral Logam, dan Maritim</b> menyediakan berbagai solusi untuk pertumbuhan dan pengembangan industri.</p>
+                <div className="flex flex-col">
+                    <h1 className='flex flex-row bg-gray-100 p-2 rounded-md font-medium mb-5 md:justify-start sm:justify-center'>Keunggulan Kami</h1>
+                    <h1 className='flex font-bold text-4xl mb-5 md:justify-start sm:justify-center'>Solusi Untuk Industri</h1>
+                    <p className='md:justify-start sm:justify-center'> <b>Balai Besar Standardisasi dan Pelayanan Jasa Industri Hasil Perkebunan, Mineral Logam, dan Maritim</b> menyediakan berbagai solusi untuk pertumbuhan dan pengembangan industri.</p>
+                </div>
 
                 <div className='pt-5 lg:w-full md:h-1/2'>
 
@@ -55,13 +58,9 @@ function Keunggulan() {
 
             </div>
 
-            <div className='flex flex-wrap place-content-end w-1/2 ms-32'>
-                {/* <i className='absolute font-normal max-w-md '>Pelajari lebih lanjut</i> */}
-                <img className='self-end' src={character} alt="character" />
+            <div className='flex flex-wrap place-content-end ms-10 self-end'>
+                <img className='relative sm:pt-10 md:flex-col p-10 ' src={character} alt="character" />
             </div>
-
-
-
 
         </div>
     )

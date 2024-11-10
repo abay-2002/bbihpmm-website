@@ -1,137 +1,79 @@
-export default function SejarahPage(){
+import SejarahCard from "../../../components/SejarahCard";
+import gedung1947 from "../../../assets/gedung/1947.jpg";
+import gedung1951 from "../../../assets/gedung/1951.jpg";
+import gedung1961 from "../../../assets/gedung/1961.jpg";
+import gedung1980 from "../../../assets/gedung/1980.jpg";
+import gedung2002 from "../../../assets/gedung/2002.jpg";
+import gedung2004 from "../../../assets/gedung/2004.jpg";
+import gedung2006 from "../../../assets/gedung/2006.jpg";
+import gedung2022 from "../../../assets/gedung/2022.jpg";
+import history from "../../../assets/icon/history.png";
+
+export default function index() {
     return (
         
-    <div className="flex flex-wrap w-full h-full bg-slate-100 place-content-center place-items-center">
+    <div className="flex flex-wrap w-full h-full bg-slate-50 place-content-center place-items-center">
 
             <div className="flex flex-col  w-full items-center">
 
-                <div className="bg-slate-200 w-full p-20">
-                    <h1 className="font-bold text-5xl text-center ">Sejarah BBIHPMM67676767676776fdfdffd</h1>
-                    <p className="text-xl mt-2 text-center">Perjalanan Transformasi BBSPJIHPMM sejauh dekade ini</p>
+                <div className="flex flex-col w-full items-center shadow-md p-20">
+                    <p className="flex flex-wrap bg-blue-500 w-1/6 gap-3 p-2 rounded-full text-center text-white"> 
+                        <img className=" ms-6 w-5 items-center" src={history} alt=""/>
+                        Sejarah
+                    </p>
+                    <h1 className="font-bold text-5xl text-center text-blue-600 mt-5">Sejarah BBIHPMM</h1>
+                    <p className="text-xl mt-5 font-light text-center">Transformasi Perjalanan Balai Besar Standardisasi dan Pelayanan Jasa Industri, Hasil Perkebunan, Mineral Logam, dan Maritim</p>
                 </div>
 
                 <div className="flex flex-wrap w-full h-1/2 p-20 gap-10 sm:align-middle">
 
-                    <div className="relative items-center md:flex md:flex-row md:ps-5 sm:border-s-2  sm:ps-5 md:border-gray-300">
-                        <div className=" md:ps-5 sm:ps-8">
-                            <h1> Tahun
-                                <p className="font-bold text-4xl">1947</p>
-                            </h1>
-                        </div>
+                        <SejarahCard
+                        title="1947"
+                        desc="Balai Besar Standardisasi dan Pelayanan Jasa Industri Hasil Perkebunan, Mineral Logam, dan Maritim (BBSPJIHPMM) didirikan pada tahun 1947 dengan nama “Laboratorium Voor Scheikunding Onderzoek” sebagai cabang dari Laboratorium Pusat Bogor"
+                        image={gedung1947}
+                        />
+                        
+                        <SejarahCard
+                        title="1951"
+                        desc="Pada tahun 1951 perubahan nama institusi kemudian diubah menjadi “Balai Penyelidikan Kimia Makassar filial Bogor" 
+                        image={gedung1951}
+                        />
 
-                        <div className="ps-4 md:ps-10 mt-4">
-                            <p className="bg-slate-200 p-5 sm:p-10 md:p-10 rounded-lg justify-end leading-8"><b>Balai Besar Standardisasi dan Pelayanan Jasa Industri Hasil Perkebunan, Mineral Logam, dan Maritim (BBSPJIHPMM)</b> didirikan pada tahun 1947 dengan nama “Laboratorium Voor Scheikunding Onderzoek” sebagai cabang dari Laboratorium Pusat Bogor</p>
-                        </div>
-                    </div>
+                        <SejarahCard
+                        title="1961"
+                        desc="Pada tahun 1961 terhitung 1 dekade dari perubahan di tahun 1951 institusi ini mengalami perubahan nama instansi menjadi “Balai Penelitian Kimia”"
+                        image={gedung1961}
+                        />
 
-                    <div className="relative items-center md:flex md:flex-row md:ps-5 sm:border-s-2  sm:ps-5 md:border-gray-300">
-                        <div className=" md:ps-5 sm:ps-8">
-                            <h1> Tahun
-                                <p className="font-bold text-4xl">1947</p>
-                            </h1>
-                        </div>
+                        <SejarahCard
+                        title="1980"
+                        desc="Pada tahun 1980 institusi ini direorganisasi, dan sejak saat itu namanya menjadi “Balai Penelitian dan Pengembangan Industri Ujung Pandang yang lebih dikenal dengan Balai Industri Ujung Pandang (BIUP)"
+                        image={gedung1980}
+                        />
 
-                        <div className="ps-4 md:ps-10 mt-4">
-                            <p className="bg-slate-200 p-5 sm:p-10 md:p-10 rounded-lg justify-end leading-8"><b>Balai Besar Standardisasi dan Pelayanan Jasa Industri Hasil Perkebunan, Mineral Logam, dan Maritim (BBSPJIHPMM)</b> didirikan pada tahun 1947 dengan nama “Laboratorium Voor Scheikunding Onderzoek” sebagai cabang dari Laboratorium Pusat Bogor</p>
-                        </div>
-                    </div>
+                        <SejarahCard
+                        title="2002"
+                        desc="Selanjutnya, tahun 2002 berubah menjadi Balai Riset dan Standardisasi Industri dan Perdagangan Makassar (Baristand Indag Makassar)"
+                        image={gedung2002}
+                        />
 
-                    <div className="relative items-center md:flex md:flex-row md:ps-5 sm:border-s-2  sm:ps-5 md:border-gray-300">
-                        <div className=" md:ps-5 sm:ps-8">
-                            <h1> Tahun
-                                <p className="font-bold text-4xl">1947</p>
-                            </h1>
-                        </div>
+                        <SejarahCard
+                        title="2004"
+                        desc="Pada tahun 2004 saat Departemen Perindustrian dan Perdagangan dipecah menjadi dua yaitu Departemen Perindustrian dan Departemen Perdagangan, kembali berganti nama menjadi <b>Baristand Industri Makassar"
+                        image={gedung2004}
+                        />
 
-                        <div className="ps-4 md:ps-10 mt-4">
-                            <p className="bg-slate-200 p-5 sm:p-10 md:p-10 rounded-lg justify-end leading-8"><b>Balai Besar Standardisasi dan Pelayanan Jasa Industri Hasil Perkebunan, Mineral Logam, dan Maritim (BBSPJIHPMM)</b> didirikan pada tahun 1947 dengan nama “Laboratorium Voor Scheikunding Onderzoek” sebagai cabang dari Laboratorium Pusat Bogor</p>
-                        </div>
-                    </div>
+                        <SejarahCard
+                        title="2006"
+                        desc="Pada Tahun 2006 Nama Institusi diubah menjadi “Balai Besar Industri Hasil Perkebunan” (BBIHP)"
+                        image={gedung2006}
+                        />
 
-                    
-                    <div className="flex items-center ps-10 border-s-2  border-black">
-                        <div className="bg-slate-600 md:p-11">
-                            <h1> Tahun
-                                <p className="font-bold text-5xl">1951</p>
-                            </h1>
-                        </div>
-
-                        <div className="ps-10 sm:ps-10 ">
-                            <p className="bg-slate-200 p-5 sm:p-10 md:p-10 rounded-lg justify-end leading-8">Pada tahun 1951 perubahan nama institusi kemudian diubah menjadi <b>“Balai Penyelidikan Kimia Makassar filial Bogor”</b></p>
-                        </div>
-                    </div>
-
-                    <div className="flex items-center ps-10 border-s-2 border-black">
-                        <div className="bg-slate-600 md:p-11">
-                            <h1> Tahun
-                                <p className="font-bold text-5xl">1961</p>
-                            </h1>
-                        </div>
-
-                        <div className="ps-10 ">
-                            <p className="bg-slate-200 p-5 sm:p-10 md:p-10 rounded-lg justify-end leading-8">Pada tahun 1961 terhitung 1 dekade dari perubahan di tahun 1951 institusi ini mengalami perubahan nama instansi menjadi <b>“Balai Penelitian Kimia”</b></p>
-                        </div>
-                    </div>
-
-                    <div className="flex items-center ps-10 border-s-2 border-black">
-                        <div className="bg-slate-600 md:p-10">
-                            <h1> Tahun
-                                <p className="font-bold text-5xl">1980</p>
-                            </h1>
-                        </div>
-
-                        <div className="ps-10 ">
-                            <p className="bg-slate-200 p-5 sm:p-10 md:p-10 rounded-lg justify-end leading-8">Pada tahun 1980 institusi ini direorganisasi, dan sejak saat itu namanya menjadi “Balai Penelitian dan Pengembangan Industri Ujung Pandang yang lebih dikenal dengan Balai Industri Ujung Pandang (BIUP)</p>
-                        </div>
-                    </div>
-
-                    <div className="flex items-center ps-10 border-s-2 border-black">
-                        <div className="bg-slate-600 md:p-9">
-                            <h1> Tahun
-                                <p className="font-bold text-5xl">2002</p>
-                            </h1>
-                        </div>
-
-                        <div className="ps-10 ">
-                            <p className="bg-slate-200 p-5 sm:p-10 md:p-10 rounded-lg justify-end leading-8">Selanjutnya, tahun 2002 berubah menjadi <b>Balai Riset dan Standardisasi Industri dan Perdagangan Makassar (Baristand Indag Makassar)</b></p>
-                        </div>
-                    </div>
-
-                    <div className="flex items-center ps-10 border-s-2 border-black">
-                        <div className="bg-slate-600 md:p-9">
-                            <h1> Tahun
-                                <p className="font-bold text-5xl">2004</p>
-                            </h1>
-                        </div>
-
-                        <div className="ps-10 ">
-                            <p className="bg-slate-200 p-5 sm:p-10 md:p-10 rounded-lg justify-end leading-8">Pada tahun 2004 saat Departemen Perindustrian dan Perdagangan dipecah menjadi dua yaitu Departemen Perindustrian dan Departemen Perdagangan, kembali berganti nama menjadi <b>Baristand Industri Makassar</b></p>
-                        </div>
-                    </div>
-
-                    <div className="flex items-center ps-10 border-s-2 border-black">
-                        <div className="bg-slate-600 md:p-9">
-                            <h1> Tahun
-                                <p className="font-bold text-5xl">2006</p>
-                            </h1>
-                        </div>
-
-                        <div className="ps-10 ">
-                            <p className="bg-slate-200 p-5 sm:p-10 md:p-10 rounded-lg justify-end leading-8">Pada Tahun 2006 Nama Institusi diubah menjadi <b>“Balai Besar Industri Hasil Perkebunan” (BBIHP)</b></p>
-                        </div>
-                    </div>
-
-                    <div className="flex items-center ps-10 border-s-2 border-black">
-                        <div className="bg-slate-600 md:p-9">
-                            <h1> Tahun
-                                <p className="font-bold text-5xl">2022</p>
-                            </h1>
-                        </div>
-
-                        <div className="ps-10 ">
-                            <p className="bg-slate-200 p-5 sm:p-10 md:p-10 rounded-lg justify-end leading-8">Pada Tahun 2022 Nama Institusi diubah menjadi “Balai Besar Standardisasi dan Pelayanan Jasa Industri Hasil Perkebunan, Mineral Logam, dan Maritim” (BBIHPMM)</p>
-                        </div>
-                    </div>
+                        <SejarahCard
+                        title="2022"
+                        desc="Pada Tahun 2022 Nama Institusi diubah menjadi “Balai Besar Standardisasi dan Pelayanan Jasa Industri Hasil Perkebunan, Mineral Logam, dan Maritim” (BBIHPMM)"
+                        image={gedung2022}
+                        />
 
                 </div>
             </div>
